@@ -92,7 +92,7 @@ class Form {
      * @param {string} url
      */
     submit(requestType, url) {
-        console.log(this.data());
+        //console.log(this.data());
         return new Promise((resolve, reject) => {
             axios[requestType](url, this.data())
                 .then(response => {
