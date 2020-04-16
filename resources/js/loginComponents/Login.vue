@@ -88,9 +88,6 @@ export default {
                 this.form
                     .post(this.url)
                     .then(login => { 
-                        axios.get('api/instances/3/teams').then(response => {
-                            console.log(response);
-                        });
                         this.$parent.close();                    
                     })
                     .catch(error => {
