@@ -45,7 +45,7 @@ if (token) {
 }*/
 
 axios.defaults.withCredentials = true;
-axios.defaults.baseURL = 'http://basquet.test';
+// axios.defaults.baseURL = 'http://basquet.test';
 
 /**
  * Echo exposes an expressive API for subscribing to channels and listening
