@@ -30,7 +30,7 @@
         "cross-env": "^7.0.2",
         "font-awesome": "^4.7.0",
         "form-backend-validation": "^2.3.9",
-        "moment": "^2.24.0",
+        "moment": "^2.29.2",
         "tabulator-tables": "^4.6.1",
         "tailwindcss": "^1.2.0",
         "v-calendar": "^1.0.3",
